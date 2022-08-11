@@ -15,6 +15,10 @@ Recipe.init(
       type: DataTypes.STRING,
       allowNull: false,
     },
+    recipe_desc: {
+      type: DataTypes.STRING,
+      allowNull: false,
+    },
     ingredients: {
       type: DataTypes.STRING,
     },
