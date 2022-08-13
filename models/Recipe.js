@@ -12,21 +12,21 @@ Recipe.init(
       autoIncrement: true,
     },
     recipe_name: {
-      type: DataTypes.STRING,
+      type: DataTypes.TEXT,
       allowNull: false,
     },
     recipe_desc: {
-      type: DataTypes.STRING,
+      type: DataTypes.TEXT,
       allowNull: false,
     },
     ingredients: {
-      type: DataTypes.STRING,
+      type: DataTypes.TEXT,
     },
     recipe_directions: {
-      type: DataTypes.STRING,
+      type: DataTypes.TEXT,
     },
     recipe_type: {
-      type: DataTypes.STRING,
+      type: DataTypes.TEXT,
     },
     date_created: {
       type: DataTypes.DATE,
