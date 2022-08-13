@@ -17,8 +17,7 @@ header, .recipe:not(:last-child) {
   text-decoration: underline;
 }
 
-.title {
+#title {
   color: red;
-  text-decoration: none;
 }
 

@@ -1,16 +1,16 @@
 const newFormHandler = async (event) => {
   event.preventDefault();
 
-  const name = document.querySelector('#recipe-name').value.trim();
-  const type = document.querySelector('#recipe-type').value.trim();
-  const description = document.querySelector('#recipe-desc').value.trim();
+  const recipe_name = document.querySelector('#recipe-name').value.trim();
+  const recipe_type = document.querySelector('#recipe-type').value.trim();
+  const recipe_desc = document.querySelector('#recipe-desc').value.trim();
   const ingredients = document.querySelector('#recipe-ingredients').value.trim();
-  const directions = document.querySelector('#recipe-directions').value.trim();
+  const recipe_directions = document.querySelector('#recipe-directions').value.trim();
 
-  if (name && type && description && ingredients && directions) {
+  if (recipe_name && recipe_type && recipe_desc && ingredients && recipe_directions) {
     const response = await fetch(`/api/recipes`, {
       method: 'POST',
-      body: JSON.stringify({ name, type , description, ingredients, directions }),
+      body: JSON.stringify({ recipe_name, recipe_type , recipe_desc, ingredients, recipe_directions }),
       headers: {
         'Content-Type': 'application/json',
       },
