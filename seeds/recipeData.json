@@ -1,24 +1,17 @@
 [
   {
     "recipe_name": "Classic Stuffed Peppers",
-    "ingredients": "1/2 c. uncooked rice, 2 tbsp. extra-virgin olive oil, plus more for drizzling, 1 medium onion, chopped, 2 tbsp. tomato paste, 3 cloves garlic, minced, 1 lb. ground beef, 1 can diced tomatoes, 1 1/2 tsp. dried oregano, Kosher salt, Freshly ground black pepper, 6 bell peppers, tops and cores removed, 1 c. shredded Monterey jack, Freshly chopped parsley, for garnish",
-    "recipe_desc": "Classic stuffed peppers",
-    "recipe_directions": "Preheat the oven to 400 degrees. In a small saucepan, prepare rice according to package instructions. In a large skillet over medium heat, heat oil. Cook onion until soft, about 5 minutes. Stir in tomato paste and garlic and cook until fragrant, about 1 minute more. Add ground beef and cook, breaking up meat with a wooden spoon, until no longer pink, 6 minutes. Drain fat. Return beef mixture to skillet, then stir in cooked rice and diced tomatoes. Season with oregano, salt, and pepper. Let simmer until liquid has reduced slightly, about 5 minutes. Place peppers cut side-up in a 9 inch by 13 inch baking dish and drizzle with oil. Spoon beef mixture into each pepper and top with Monterey jack, then cover baking dish with foil. Bake until peppers are tender, about 35 minutes. Uncover and bake until cheese is bubbly, 10 minutes more. Garnish with parsley before serving. ",
+    "recipe_desc": "Great Stuffed Peppers",
+    "ingredients": "1/2 c. uncooked rice, 2 tbsp. extra-virgin olive oil,",
+    "recipe_directions": "Preheat the oven to 400 degrees. ",
     "recipe_type": "Main"
   },
   {
-    "recipe_name": "Thai Fried Rice",
-    "recipe_desc": "Great-grandmas' thai fried rice",
-    "ingredients": "2 to 3 Thai red chilis, thinly sliced, 3 tbsp. fish sauce, 2 tbsp. vegetable oil, divided,2 chicken breasts, thinly sliced, Kosher salt, Freshly ground black pepper , 1 medium carrot, peeled and diced, 4 cloves garlic, minced , 4 scallions, white and light green parts cut into 1 inch pieces, 1 tsp. freshly minced ginger , 4 c. cooked white rice, preferably day old , 3 tbsp. oyster sauce, 2 large eggs, beaten, Freshly chopped cilantro, for serving , Lime wedges, for serving.",
-    "recipe_directions": "In a small bowl, combine chilis and fish sauce. Set aside while you prep the rest of your ingredients. Season chicken with salt and pepper. In a large skillet over medium-high heat, heat 1 tablespoon oil. Add chicken and cook, tossing occasionally, until cooked through, about 5 minutes. Remove chicken from skillet and set aside on a plate to keep warm. Drain skillet, if needed. Return skillet over medium-high heat and heat remaining tablespoon oil. Add carrots and cook until softened, 3 minutes. Add garlic, green onions, and ginger and cook until fragrant, 1 minute. Add rice, 3 tablespoons of the fish sauce mixture, and oyster sauce. Toss until rice is well coated, then push rice to one side of pan. On the empty side of the pan, add a little more oil if your pan is dry. Add beaten eggs and scramble with a rubber spatula until just barely set, then combine with rice. Return chicken to skillet and stir to combine. Serve with cilantro, lime wedges, and any remaining fish sauce mixture. ",
-    "recipe_type": "Main"
-  },
-  {
-    "recipe_name": "Cobb Salad",
-    "recipe_desc": " Fresh, healthy cobb salad",
-    "ingredients": "For Dressing 1/4 c. red wine vinegar, 1 tbsp. Dijon mustard, 1/2 c. olive oil, 1 1/2 tsp. Sugar, 2 cloves garlic, minced, 1 tsp. fresh oregano, minced, Kosher salt and freshly ground black pepper For Salad 1 head romaine, chopped, 2 1/2 c. cubed rotisserie chicken breast about 10 oz., 1/2 medium cucumber, halved and sliced, 4 hard-cooked eggs, quartered, 5 to 6 ounces cherry tomatoes, halved, 1 medium avocado, peeled and cubed, 2 to 3 ounces blue cheese, crumbled, 6 to 8 slices bacon, cooked.",
-    "recipe_directions": "Make dressing: Whisk together vinegar and mustard in a bowl. Gradually whisk in oil until blended. Stir in sugar, garlic, and oregano. Season with salt and pepper.Make salad: Arrange lettuce on a large platter. Top with rows of chicken, cucumber, eggs, tomatoes, avocado, cheese, and bacon. Drizzle with dressing and serve immediately.",
-    "recipe_type": "Main"
+  "recipe_name": "Thai Fried Rice",
+  "recipe_desc": "Great-grandmas' thai fried rice",
+  "ingredients": "2 to 3 Thai red chilis, thinly sliced, 3 tbsp. fish sauce, 2 tbsp. vegetable oil, divided,2 chicken breasts, thinly sliced, Kosher salt, Freshly ground black pepper , 1 medium carrot, peeled and diced, 4 cloves garlic, minced , 4 scallions, white and light green parts cut into 1 inch pieces, 1 tsp. freshly minced ginger , 4 c. cooked white rice, preferably day old , 3 tbsp. oyster sauce, 2 large eggs, beaten, Freshly chopped cilantro, for serving , Lime wedges, for serving.",
+  "recipe_directions": "In a small bowl, combine chilis and fish sauce. Set aside while you prep the rest of your ingredients. Season chicken with salt and pepper. In a large skillet over medium-high heat, heat 1 tablespoon oil. Add chicken and cook, tossing occasionally, until cooked through, about 5 minutes. Remove chicken from skillet and set aside on a plate to keep warm. Drain skillet, if needed. Return skillet over medium-high heat and heat remaining tablespoon oil. Add carrots and cook until softened, 3 minutes. Add garlic, green onions, and ginger and cook until fragrant, 1 minute. Add rice, 3 tablespoons of the fish sauce mixture, and oyster sauce. Toss until rice is well coated, then push rice to one side of pan. On the empty side of the pan, add a little more oil if your pan is dry. Add beaten eggs and scramble with a rubber spatula until just barely set, then combine with rice. Return chicken to skillet and stir to combine. Serve with cilantro, lime wedges, and any remaining fish sauce mixture. ",
+  "recipe_type": "Main"
   }
 
 ]
