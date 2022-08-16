@@ -3,18 +3,18 @@
 <div class="row mb-4 recipe">
   <div class="col-md-5">
     <h2>
-      <a href="/recipe/{{recipe.id}}">{{recipe.recipe_name}}</a>
+      <a class="link" href="/recipe/{{recipe.id}}">{{recipe.recipe_name}}</a>
     </h2>
     <p>
-      <!-- Pass recipe_type value to the helper function -->
-      <span class="recipe-type">{{recipe.recipe_type}}</span>
+      {{recipe.recipe_desc}}
     </p>
     <p>Submitted by {{recipe.user.name}} on {{format_date recipe.date_created}}</p>
   </div>
   <div class="col-md-7">
     <p>
-      {{recipe.recipe_desc}}
-    </p>
+      <!-- Pass recipe_type value to the helper function -->
+      <span class="recipe-type">{{recipe.recipe_type}}</span>
+    </p>    
   </div>
 </div>
 {{/each}}

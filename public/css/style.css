@@ -1,23 +1,46 @@
-header, .recipe:not(:last-child) {
-  border-bottom: 1px solid #ccc;
-}
-
 .no-button {
   background: none;
   border: none;
   padding: 0;
   cursor: pointer;
-  color: #1b89bc;
+  color: #660000;
   text-decoration: none;
   font-size: 100%;
 }
 
 .no-button:hover {
-  color: #065b83;
+  color: #260000;
   text-decoration: underline;
 }
 
-#title {
-  color: red;
+.link {
+  color: #660000;
 }
 
+.link:hover {
+  color: #660000;
+}
+
+.navbar{
+  display:flex;
+  justify-content: flex-end;
+}
+.btn-sear
+{
+  background-color: #230000;
+  color:#FFF;
+  border-color: #000;
+}
+.btn-sear:hover{
+  background-color: #660000;
+  color:#FFF;
+  border-color: #000;
+ }
+
+ h2{
+  color:#660000;
+ }
+ 
+ h4{
+  color:#660000;
+ }

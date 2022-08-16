@@ -18,26 +18,26 @@
         {{!-- <input class="form-input" type="number" id="project-funding" name="project-funding" /> --}}
         <label for="recipe-type">Choose a Recipe Type:</label>
         <select name="recipe-type" id="recipe-type">
-          <option value="main">Main-Dish</option>
-          <option value="side">Side-Dish</option>
+          <option value="main">Main Dish</option>
+          <option value="side">Side Dish</option>
           <option value="snack">Snack</option>
           <option value="dessert">Dessert</option>
         </select>
       </div>
       <div class="form-group">
-        <label for="recipe-desc">description:</label>
+        <label for="recipe-desc">Description:</label>
         <textarea class="form-input" id="recipe-desc" name="recipe-desc"></textarea>
       </div>
        <div class="form-group">
-        <label for="recipe-ingredients">ingredients:</label>
+        <label for="recipe-ingredients">Ingredients:</label>
         <textarea class="form-input" id="recipe-ingredients" name="recipe-ingredients"></textarea>
       </div>
        <div class="form-group">
-        <label for="recipe-directions">directions:</label>
+        <label for="recipe-directions">Directions:</label>
         <textarea class="form-input" id="recipe-directions" name="recipe-directions"></textarea>
       </div>
       <div class="form-group">
-        <button type="submit" class="btn btn-primary">Add Recipe</button>
+        <button type="submit" class="btn btn-secondary"> Add Recipe </button>
       </div>
     </form>
   </div>
@@ -49,10 +49,10 @@
     {{#each recipes as |recipe|}}
     <div class="row mb-2">
       <div class="col-md-8">
-        <h4><a href="/recipe/{{recipe.id}}">{{recipe.recipe_name}}</a></h4>
+        <h4><a class="link" href="/recipe/{{recipe.id}}">{{recipe.recipe_name}}</a></h4>
       </div>
       <div class="col-md-4">
-        <button class="btn btn-sm btn-danger" data-id="{{recipe.id}}">DELETE</button>
+        <button class="btn btn-danger" data-id="{{recipe.id}}"> DELETE </button>
       </div>
     </div>
     {{/each}}
