@@ -21,12 +21,15 @@ Recipe.init(
     },
     ingredients: {
       type: DataTypes.TEXT,
+      allowNull: false,
     },
     recipe_directions: {
       type: DataTypes.TEXT,
+      allowNull: false,
     },
     recipe_type: {
       type: DataTypes.TEXT,
+      allowNull: false,
     },
     date_created: {
       type: DataTypes.DATE,
@@ -35,6 +38,7 @@ Recipe.init(
     },
     user_id: {
       type: DataTypes.INTEGER,
+      allowNull: false,
       references: {
         model: 'user',
         key: 'id',
