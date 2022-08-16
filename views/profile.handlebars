@@ -10,30 +10,28 @@
 
     <form class="form new-recipe-form">
       <div class="form-group">
-        <label for="recipe-name">Recipe name:</label>
+        <label for="recipe-name"><h5>Recipe name:</h5></label>
         <input class="form-input" type="text" id="recipe-name" name="recipe-name" />
       </div>
       <div class="form-group">
-        {{!-- <label for="recipe-type">Recipe type:</label> --}}
-        {{!-- <input class="form-input" type="number" id="project-funding" name="project-funding" /> --}}
-        <label for="recipe-type">Choose a Recipe Type:</label>
-        <select name="recipe-type" id="recipe-type">
-          <option value="main">Main Dish</option>
-          <option value="side">Side Dish</option>
-          <option value="snack">Snack</option>
-          <option value="dessert">Dessert</option>
+        <label for="recipe-type"><h5>Choose a Recipe Type:</h5></label>
+        <select name="recipe-type" class="recipe-type" id="recipe-type">
+          <option value="main"> Main Dish </option>
+          <option value="side"> Side Dish </option>
+          <option value="snack"> Snack </option>
+          <option value="dessert"> Dessert </option>
         </select>
       </div>
       <div class="form-group">
-        <label for="recipe-desc">Description:</label>
+        <label for="recipe-desc"><h5>Description:</h5></label>
         <textarea class="form-input" id="recipe-desc" name="recipe-desc"></textarea>
       </div>
        <div class="form-group">
-        <label for="recipe-ingredients">Ingredients:</label>
+        <label for="recipe-ingredients"><h5>Ingredients:</h5></label>
         <textarea class="form-input" id="recipe-ingredients" name="recipe-ingredients"></textarea>
       </div>
        <div class="form-group">
-        <label for="recipe-directions">Directions:</label>
+        <label for="recipe-directions"><h5>Directions:</h5></label>
         <textarea class="form-input" id="recipe-directions" name="recipe-directions"></textarea>
       </div>
       <div class="form-group">
@@ -51,9 +49,9 @@
       <div class="col-md-8">
         <h4><a class="link" href="/recipe/{{recipe.id}}">{{recipe.recipe_name}}</a></h4>
       </div>
-      <div class="col-md-4">
+      {{!-- <div class="col-md-4">
         <button class="btn btn-danger" data-id="{{recipe.id}}"> DELETE </button>
-      </div>
+      </div> --}}
     </div>
     {{/each}}
   </div>

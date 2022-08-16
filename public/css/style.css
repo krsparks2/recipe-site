@@ -25,12 +25,14 @@
   display:flex;
   justify-content: flex-end;
 }
+
 .btn-sear
 {
   background-color: #230000;
   color:#FFF;
   border-color: #000;
 }
+
 .btn-sear:hover{
   background-color: #660000;
   color:#FFF;
@@ -41,6 +43,18 @@
   color:#660000;
  }
  
+ h3{
+  color:#660000;
+ }
+ 
  h4{
   color:#660000;
  }
+ 
+ h5{
+  color:#660000;
+ }
+ 
+ .recipe-type{
+  width:125px;   
+}
