@@ -20,8 +20,7 @@ https://polar-tor-08833.herokuapp.com/
 
 # The following image shows the web application's appearance and functionality:
 
+![Sear Me out Screenshot](public\images\Searmeout.PNG)
 
-
-# Video
 
 

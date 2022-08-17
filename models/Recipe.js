@@ -31,6 +31,9 @@ Recipe.init(
       type: DataTypes.TEXT,
       allowNull: false,
     },
+    // recipe_image: {
+    //   type: DataTypes.BLOB,
+    // },
     date_created: {
       type: DataTypes.DATE,
       allowNull: false,
