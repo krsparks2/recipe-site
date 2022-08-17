@@ -21,6 +21,15 @@
   color: #660000;
 }
 
+.link-jumbo {
+  color: #fcf5f5;
+}
+
+.link-jumbo:hover {
+  color: #fcf5f5;
+}
+
+
 .navbar{
   display:flex;
   justify-content: flex-end;
@@ -57,4 +66,18 @@
  
  .recipe-type{
   width:125px;   
+}
+
+.bg-color{
+  background-color: #fcf5f5;
+}
+
+.bg-image{
+  background-image: url("/images/header-image-dark.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title{
+  color:#fcf5f5;
 }

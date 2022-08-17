@@ -1,6 +1,8 @@
 const router = require('express').Router();
 const { Recipe, User } = require('../models');
 const withAuth = require('../utils/auth');
+// const multer  = require('multer')
+// const upload = multer({ dest: 'uploads/' })
 
 router.get('/', async (req, res) => {
   try {
@@ -75,8 +77,39 @@ router.get('/login', (req, res) => {
     res.redirect('/profile');
     return;
   }
-
   res.render('login');
 });
+
+// var storage = multer.diskStorage({
+//   destination: (req, file, callBack) => {
+//       callBack(null, './public/images/')     // './public/images/' directory name where save the file
+//   },
+//   filename: (req, file, callBack) => {
+//       callBack(null, file.fieldname + '-' + Date.now() + path.extname(file.originalname))
+//   }
+// })
+
+// var uploadImage = multer({
+//   storage: storage
+// });
+
+// app.get('/profile', (req, res) => {
+// res.sendFile(__dirname + '/index.html');
+// });
+
+// app.post("/post", uploadImage.single('image'), (req, res) => {
+//   if (!req.file) {
+//       console.log("No file upload");
+//   } else {
+//       console.log(req.file.filename)
+//       var imgsrc = 'http://127.0.0.1:3000/images/' + req.file.filename
+//       var insertData = "INSERT INTO recipe_db(file_src)VALUES(recipe_images)"
+//       db.query(insertData, [imgsrc], (err, result) => {
+//           if (err) throw err
+//           console.log("file uploaded")
+//       })
+//   }
+// });
+
 
 module.exports = router;
