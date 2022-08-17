@@ -12,26 +12,27 @@
 
 <body>
   
-    <div class="container-xxl jumbotron">
+    <div class="bg-color">
+    <div class="container-xxl jumbotron bg-image">
       <div class="row">
-        <div class="col col-9"> 
+        <div class="col col-3"> 
+          
+        </div>
+        <div class="col col-5">
           <header>
             <h1>
-              <a class="link" href="/">Sear Me Out!</a>
+              <a class="link-jumbo" href="/">Sear Me Out!</a>
             </h1>
           </header>
-        </div>
-        <div class="col col-1">
-          
         </div>
         <div class="col col-2">
           <nav>
             <!-- Conditionally render login or logout links -->
             {{#if logged_in}}
-            <a class="link" href="/profile">profile</a> |
-            <button class="no-button" id="logout">logout</button>
+            <a class="link-jumbo" href="/profile">profile</a> |
+            <button class="no-button link-jumbo" id="logout">logout</button>
             {{else}}
-            <a class="link" href="/login">login</a>
+            <a class="link-jumbo" href="/login">login</a>
             {{/if}}
           </nav>
         </div>
@@ -64,7 +65,7 @@
         </div>
       </div>
     </div>
-
+</div>
   <!-- Render script for logged in users only -->
   {{#if logged_in}}
   <script src="/js/logout.js"></script>
